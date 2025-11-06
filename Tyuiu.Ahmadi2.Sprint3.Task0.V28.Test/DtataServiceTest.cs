@@ -12,7 +12,7 @@ namespace Tyuiu.Ahmadi2.Sprint3.Task0.V28.Test
             DataService ds = new DataService();
 
             double x = 0.25;
-            double wait = 132112.38098363276;
+            double wait = 411589.537;
 
             double res = ds.GetMultiplySeries(x);
 
