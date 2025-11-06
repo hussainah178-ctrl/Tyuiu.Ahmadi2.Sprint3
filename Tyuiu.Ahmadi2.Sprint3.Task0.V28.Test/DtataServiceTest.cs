@@ -7,16 +7,11 @@ namespace Tyuiu.Ahmadi2.Sprint3.Task0.V28.Test
     public class DataServiceTest
     {
         [TestMethod]
-        public void ValidGetMultiplySeries()
+        public void TestGetMultiplySeries()
         {
             DataService ds = new DataService();
-
-            double x = 0.25;
-            double wait = 411589.537;
-
-            double res = ds.GetMultiplySeries(x);
-
-            Assert.AreEqual(wait, res, 0.001);
+            double result = ds.GetMultiplySeries(0.25);
+            Assert.AreEqual(411589.537, result);
         }
     }
 }
