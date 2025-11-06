@@ -13,7 +13,7 @@ namespace Tyuiu.Ahmadi2.Sprint3.Task0.V28.Lib
             return Math.Round(p, 3);
         }
 
-        public double GetMultiplySeries(double value, int startValue, int stopValue)
+        public double GetMultiplySeries(double value, int startValue, int stopValue) 
         {
             throw new NotImplementedException();
         }
