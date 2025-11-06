@@ -1,5 +1,4 @@
-﻿using System;
-using Microsoft.VisualStudio.TestTools.UnitTesting;
+﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Tyuiu.Ahmadi2.Sprint3.Task0.V28.Lib;
 
 namespace Tyuiu.Ahmadi2.Sprint3.Task0.V28.Test
@@ -13,7 +12,7 @@ namespace Tyuiu.Ahmadi2.Sprint3.Task0.V28.Test
             DataService ds = new DataService();
 
             double x = 0.25;
-            double wait = 1.2345678901234568E+28; 
+            double wait = 411589.537;
 
             double res = ds.GetMultiplySeries(x);
 
