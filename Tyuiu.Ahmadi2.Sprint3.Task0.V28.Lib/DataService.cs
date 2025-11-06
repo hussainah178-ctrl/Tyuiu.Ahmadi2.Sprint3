@@ -4,7 +4,7 @@ using tyuiu.cources.programming.interfaces.Sprint3;
 
 namespace Tyuiu.Ahmadi2.Sprint3.Task0.V28.Lib
 {
-    public class DataService : ISprint3Task0V28, IDataService1
+    public class DataService : ISprint3Task0V28
     {
         private double x;
 
