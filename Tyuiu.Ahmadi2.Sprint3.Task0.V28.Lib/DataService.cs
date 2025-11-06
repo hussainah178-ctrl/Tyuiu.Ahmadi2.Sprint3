@@ -8,7 +8,7 @@ namespace Tyuiu.Ahmadi2.Sprint3.Task0.V28.Lib
     {
         private double x;
 
-        public double GetMultiplySeries(double value, int startValue, int stopValue)
+        public double GetMultiplySeries(double value, int startValue, int stopValue) 
         {
             double p = 1;
             for (int i = 1; i <= 17; i++)
