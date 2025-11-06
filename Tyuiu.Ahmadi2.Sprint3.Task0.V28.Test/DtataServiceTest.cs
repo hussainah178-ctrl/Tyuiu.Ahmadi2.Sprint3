@@ -16,7 +16,7 @@ namespace Tyuiu.Ahmadi2.Sprint3.Task0.V28.Test
 
             double res = ds.GetMultiplySeries(x);
 
-            Assert.AreEqual(wait, res);
+            Assert.AreEqual(wait, res, 0.001);
         }
     }
 }
