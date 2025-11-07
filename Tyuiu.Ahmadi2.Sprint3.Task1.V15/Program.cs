@@ -1,6 +1,7 @@
-﻿using Tyuiu.Ahmadi2.Sprint3.Task1.V15.Lib;
+﻿using System;
+using Tyuiu.Ahmadi2.Sprint3.Task1.V15.Lib;
 
-namespace Tyuiu_Ahmadi2_Sprint3.Task1.V15
+namespace Tyuiu.Ahmadi2.Sprint3.Task1.V15
 {
     class Program
     {
@@ -10,6 +11,7 @@ namespace Tyuiu_Ahmadi2_Sprint3.Task1.V15
             int value = 2;
             int startValue = 1;
             int stopValue = 5;
+
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
