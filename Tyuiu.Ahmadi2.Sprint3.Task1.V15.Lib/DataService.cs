@@ -3,7 +3,7 @@ using tyuiu.cources.programming.interfaces.Sprint3;
 
 namespace Tyulu.Ahmadi2.Sprint3.Task1.V15.Lib
 {
-    public class DataService :ISprint3Task1V15
+    public class DataService : ISprint3Task1V15
     {
         public double GetMultiplySeries(int value, int startValue, int stopValue)
         {
@@ -12,7 +12,7 @@ namespace Tyulu.Ahmadi2.Sprint3.Task1.V15.Lib
 
             while (i <= stopValue)
             {
-                product = product * (value * value + i);
+                product *= (value * value + i);
                 i++;
             }
 
