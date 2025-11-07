@@ -14,7 +14,7 @@ namespace Tyulu.Ahmadi2.Sprint3.Task1.V15.Test
             int value = 2;
             int startValue = 1;
             int stopValue = 5;
-            double wait = 15121; // : (5×6×7×8×9) + 1 = 15120 + 1 = 15121
+            double wait = 208845.0; // : (5×6×7×8×9) + 1 = 15120 + 1 = 15121
 
             double result = ds.GetMultiplySeries(value, startValue, stopValue);
 
