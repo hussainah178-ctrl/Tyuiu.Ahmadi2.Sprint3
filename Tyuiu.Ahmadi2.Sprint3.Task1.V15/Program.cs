@@ -1,30 +1,28 @@
-﻿using System;
-using Tyulu.Ahmadi2.Sprint3.Task1.V15.Lib;
+﻿using Tyuiu.Ahmadi2.Sprint3.Task1.V15.Lib;
 
-namespace Tyulu.Ahmadi2.Sprint3.Task1.V15
+namespace Tyuiu_Ahmadi2_Sprint3.Task1.V15
 {
     class Program
     {
         static void Main(string[] args)
         {
             DataService ds = new DataService();
-
-            int x = 2;
-            int start = 1;
-            int stop = 5;
-
+            int value = 2;
+            int startValue = 1;
+            int stopValue = 5;
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine($"Значение X = {x}");
-            Console.WriteLine($"Старт шага = {start}");
-            Console.WriteLine($"Конец шага = {stop}");
+
+            Console.WriteLine("Переменная X = " + value);
+            Console.WriteLine("Старт шага = " + startValue);
+            Console.WriteLine("Конец шага = " + stopValue);
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            double result = ds.GetMultiplySeries(x, start, stop);
+            double result = ds.GetMultiplySeries(value, startValue, stopValue);
             Console.WriteLine($"Произведение ряда = {result}");
 
             Console.ReadKey();
