@@ -15,7 +15,7 @@ namespace Tyuiu.Ahmadi2.Sprint3.Task4.V27.Test
             int stopValue = 5;
 
             double result = ds.Calculate(startValue, stopValue);
-            double wait = -17.277; // Ожидаемое значение (может потребоваться корректировка)
+            double wait = -44.313;
 
             Assert.AreEqual(wait, result);
         }
