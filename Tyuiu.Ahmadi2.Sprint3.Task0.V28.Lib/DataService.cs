@@ -7,16 +7,14 @@ namespace Tyuiu.Ahmadi2.Sprint3.Task0.V28.Lib
     {
         public double GetMultiplySeries(double x)
         {
-            double p = 1;
+            double sum = 0; 
             double x3 = Math.Pow(x, 3);
 
             for (int i = 1; i <= 17; i++)
             {
-                double term = x3 * i;
-                p *= term;
+                sum  += x3 * i;
             }
-            p += 2;
-            return p;
+            return 2 + sum;
         }
 
 
