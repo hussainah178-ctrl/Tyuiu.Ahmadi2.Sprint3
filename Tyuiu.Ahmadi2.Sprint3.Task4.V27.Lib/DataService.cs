@@ -10,31 +10,20 @@ namespace Tyuiu.Ahmadi2.Sprint3.Task4.V27.Lib
             double sum = 0;
             int x = startValue;
 
-            do
+            while (x <= stopValue)
             {
-                if (x == 0)
+                if (x != 0) 
                 {
-                    x++;
-                    continue;
+                    double denominator = Math.Cos(x) - Math.Sin(x);
+
+                    if (Math.Abs(denominator) > 0.0001)
+                    {
+                        double y = x / denominator;
+                        sum += y;
+                    }
                 }
-
-                // Вычисление значения функции
-                double cosX = Math.Cos(x);
-                double sinX = Math.Sin(x);
-                double denominator = cosX - sinX;
-
-                // Проверка деления на ноль
-                if (Math.Abs(denominator) < 0.0001)
-                {
-                    x++;
-                    continue;
-                }
-
-                double y = x / denominator;
-                sum += y;
                 x++;
             }
-            while (x <= stopValue);
 
             return Math.Round(sum, 3);
         }
