@@ -14,7 +14,7 @@ namespace Tyuiu.Ahmadi2.Sprint3.Task0.V28.Lib
             {
                 sum  += x3 * i;
             }
-            return 2 + sum;
+            return 2 + sum;     
         }
 
 
