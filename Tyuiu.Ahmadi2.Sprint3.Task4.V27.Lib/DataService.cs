@@ -7,21 +7,30 @@ namespace Tyuiu.Ahmadi2.Sprint3.Task4.V27.Lib
         public double Calculate(int startValue, int stopValue)
         {
             double sum = 0;
+            int x = startValue;
 
-            for (int x = startValue; x <= stopValue; x++)
+            do
             {
-                if (x == 0) continue;
-
-                double cosX = Math.Cos(x);
-                double sinX = Math.Sin(x);
-                double denominator = cosX - sinX;
-
-                if (Math.Abs(denominator) > 0.0001)
+                if (x == 0)
                 {
-                    double y = x / denominator;
-                    sum += y;
+                    x++;
+                    continue;
                 }
+
+                double denominator = Math.Cos(x) - Math.Sin(x);
+                
+                // Проверка деления на ноль
+                if (Math.Abs(denominator) < 0.0001)
+                {
+                    x++;
+                    continue;
+                }
+
+                double y = x / denominator;
+                sum += y;
+                x++;
             }
+            while (x <= stopValue);
 
             return Math.Round(sum, 3);
         }
