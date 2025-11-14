@@ -10,13 +10,13 @@ namespace Tyuiu.Ahmadi2.Sprint3.Task4.V27.Test
         public void ValidCalculate()
         {
             DataService ds = new DataService();
-            
+
             int startValue = -5;
             int stopValue = 5;
-            
+
             double result = ds.Calculate(startValue, stopValue);
             double wait = -17.277; // Ожидаемое значение (может потребоваться корректировка)
-            
+
             Assert.AreEqual(wait, result);
         }
     }
