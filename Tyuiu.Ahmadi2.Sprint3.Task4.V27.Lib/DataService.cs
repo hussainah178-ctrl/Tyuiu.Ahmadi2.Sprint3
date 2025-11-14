@@ -18,7 +18,7 @@ namespace Tyuiu.Ahmadi2.Sprint3.Task4.V27.Lib
                     continue;
                 }
 
-                double denominator = Math.Cos(x) - Math.Sin(x);
+                double denominator = Math.Cos(x) + Math.Sin(x);
 
                 // Проверка деления на ноль
                 if (Math.Abs(denominator) < 0.0001)
