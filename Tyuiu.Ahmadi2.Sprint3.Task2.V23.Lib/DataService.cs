@@ -12,13 +12,15 @@ namespace Tyuiu.Ahmadi2.Sprint3.Task2.V23.Lib
 
             do
             {
-                double term = (Math.Pow(a, k) + 0.25) * Math.Sin(k);
+                double power = Math.Pow(a, k);
+                double term = (power + 0.25) * Math.Sin(k);
                 sum += term;
                 k++;
             }
             while (k <= stopValue);
 
-            return sum;
+            
+            return Math.Round(sum, 3);
         }
     }
 }

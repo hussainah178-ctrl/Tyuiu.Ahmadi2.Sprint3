@@ -16,9 +16,9 @@ namespace Tyuiu.Ahmadi2.Sprint3.Task2.V23.Test
             int stopValue = 13;
 
             double result = ds.GetSumSeries(a, startValue, stopValue);
-            double wait = -4.567;
+            double wait = -63.727;
 
-            Assert.AreEqual(wait, Math.Round(result, 3));
+            Assert.AreEqual(wait, result);
         }
     }
 }

@@ -38,7 +38,7 @@ namespace Tyuiu.Ahmadi2.Sprint3.Task2.V23
             DataService ds = new DataService();
             double result = ds.GetSumSeries(a, startValue, stopValue);
 
-            Console.WriteLine($"Сумма ряда = {result:F3}");
+            Console.WriteLine($"Сумма ряда = {result}");
             Console.ReadKey();
         }
     }
