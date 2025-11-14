@@ -16,7 +16,7 @@ namespace Tyuiu.Ahmadi2.Sprint3.Task0.V28.Lib
                 p *= term;
             }
             p += 2;
-            return Math.Round(p, 3);
+            return p;
         }
 
 
