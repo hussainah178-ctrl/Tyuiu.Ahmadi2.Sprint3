@@ -7,20 +7,26 @@ namespace Tyuiu.Ahmadi2.Sprint3.Task0.V28.Lib
     {
         public double GetMultiplySeries(double x)
         {
-            double sum = 0; 
-            double x3 = Math.Pow(x, 3);
+            double p = 1;
 
             for (int i = 1; i <= 17; i++)
             {
-                sum  += x3 * i;
+                p *= Math.Pow(x, i + 2);
             }
-            return 2 + sum;     
-        }
 
+            return p;
+        }
 
         public double GetMultiplySeries(double value, int startValue, int stopValue)
         {
-            throw new NotImplementedException();
+            double p = 1;
+
+            for (int i = startValue; i <= stopValue; i++)
+            {
+                p *= Math.Pow(value, i + 2);
+            }
+
+            return p;
         }
     }
 }
