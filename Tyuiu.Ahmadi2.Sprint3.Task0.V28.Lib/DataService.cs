@@ -8,10 +8,11 @@ namespace Tyuiu.Ahmadi2.Sprint3.Task0.V28.Lib
         public double GetMultiplySeries(double x)
         {
             double p = 1;
+            double x3 = Math.Pow(x, 3); 
 
             for (int i = 1; i <= 17; i++)
             {
-                p *= Math.Pow(x, i + 2);
+                p *= x3 * i + 2; 
             }
 
             return p;
@@ -19,14 +20,7 @@ namespace Tyuiu.Ahmadi2.Sprint3.Task0.V28.Lib
 
         public double GetMultiplySeries(double value, int startValue, int stopValue)
         {
-            double p = 1;
-
-            for (int i = startValue; i <= stopValue; i++)
-            {
-                p *= Math.Pow(value, i + 2);
-            }
-
-            return p;
+            throw new NotImplementedException();
         }
     }
 }

@@ -21,7 +21,8 @@ namespace Tyuiu.Ahmadi2.Sprint3.Task0.V28
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                             *");
             Console.WriteLine("***************************************************************************");
 
-            double result = ds.GetMultiplySeries(x);
+            double result =  ds.GetMultiplySeries(x);
+
             Console.WriteLine($"Произведение ряда = {result}");
 
             Console.ReadKey();
