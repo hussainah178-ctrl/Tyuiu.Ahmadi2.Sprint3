@@ -6,7 +6,7 @@ namespace Tyuiu.Ahmadi2.Sprint3.Task1.V15
     class Program
     { 
         static void Main(string[] args)
-        {
+        { 
             DataService ds = new DataService();
             int value = 2;
             int startValue = 1;
