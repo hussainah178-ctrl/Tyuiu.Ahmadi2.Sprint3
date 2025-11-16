@@ -63,9 +63,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.Ahmadi2.Sprint3.Task7
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.Ahmadi2.Sprint3.Task1.V15", "Tyuiu.Ahmadi2.Sprint3.Task1.V15\Tyuiu.Ahmadi2.Sprint3.Task1.V15.csproj", "{E937453E-1073-4305-8D87-8874906DDB73}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.ahmadi2.Sprint3.Task1.V15.Lib", "Tyuiu.ahmadi2.Sprint3.Task1.V15.Lib\Tyuiu.ahmadi2.Sprint3.Task1.V15.Lib.csproj", "{BFBB61AA-9467-4BB1-BBC7-75E482E3B4E8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.Ahmadi2.Sprint3.Task1.V15.Lib", "Tyuiu.ahmadi2.Sprint3.Task1.V15.Lib\Tyuiu.Ahmadi2.Sprint3.Task1.V15.Lib.csproj", "{BFBB61AA-9467-4BB1-BBC7-75E482E3B4E8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.ahmadi2.Sprint3.Task1.V15.Test", "Tyuiu.ahmadi2.Sprint3.Task1.V15.Test\Tyuiu.ahmadi2.Sprint3.Task1.V15.Test.csproj", "{05DBC148-5905-48D7-A0D4-4145661EE5DB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tyuiu.Ahmadi2.Sprint3.Task1.V15.Test", "Tyuiu.ahmadi2.Sprint3.Task1.V15.Test\Tyuiu.Ahmadi2.Sprint3.Task1.V15.Test.csproj", "{05DBC148-5905-48D7-A0D4-4145661EE5DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
