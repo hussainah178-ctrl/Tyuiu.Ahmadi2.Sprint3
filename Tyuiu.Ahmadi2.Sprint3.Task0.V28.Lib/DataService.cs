@@ -8,14 +8,15 @@ namespace Tyuiu.Ahmadi2.Sprint3.Task0.V28.Lib
         public double GetMultiplySeries(double x)
         {
             double p = 1;
-            double x3 = Math.Pow(x, 3); 
+            double x3 = x * x * x; 
 
             for (int i = 1; i <= 17; i++)
             {
-                p *= x3 * i + 2; 
+                p *= x3 * i + 2;
             }
 
-            return p;
+            
+            return Math.Round(p, 3, MidpointRounding.AwayFromZero);
         }
 
         public double GetMultiplySeries(double value, int startValue, int stopValue)
