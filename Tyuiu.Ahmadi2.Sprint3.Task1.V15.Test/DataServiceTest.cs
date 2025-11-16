@@ -9,7 +9,7 @@ namespace Tyuiu.AhmadiM.Sprint3.Task1.V15.Test
         [TestMethod]
         public void ValidGetMultiplySeries()
         {
-            DataService ds = new DataService();
+            DataService ds = new DataService(); 
             int value = 2;
             int startValue = 1;
             int stopValue = 5;
