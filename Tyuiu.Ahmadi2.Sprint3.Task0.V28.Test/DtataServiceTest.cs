@@ -10,7 +10,7 @@ namespace Tyuiu.Ahmadi2.Sprint3.Task0.V28.Test
         public void TestGetMultiplySeries()
         {
             DataService ds = new DataService();
-            double result = ds.GetMultiplySeries(0.25);
+            double result = ds.GetMultiplySeries(0.25); 
             Assert.AreEqual(411589.537, result);
         }
     }
